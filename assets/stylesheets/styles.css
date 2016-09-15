@@ -1,23 +1,47 @@
-h1 {
-	font-size: 70px;
-	text-align: center;
-	color: tomato;
+.main_title {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  /*height: 100px;*/
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.bold_text {
+  font: bold;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .system_name {
-	font-size: 20px;
-	font: bold;
-	font-style: italic;
+  /*text-align: center;*/
+  font: bold;
+  font-style: italic;
 }
 
-.main_text {
-	font-size: 20px;
-	text-align: center;
-	font-family: Arial; ;
+.formatted_footer {
+  text-align: center;
+  width: 200px;
+  border: 5px solid black;
 }
 
-.centered {
-	position:absolute;
-	left: 50%;
-	transform: translate(-50%, 0%);
-}
+/*.centered {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+/*.centered-paragraph {
+  vertical-align: middle;
+}*/
+
+/*.col-md-6 {
+  margin-bottom: 20px;
+}*/
+
+
